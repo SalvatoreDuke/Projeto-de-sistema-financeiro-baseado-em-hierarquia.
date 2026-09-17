@@ -1,7 +1,7 @@
 CXX      := g++
-CXXFLAGS := -std=c++17 -Wall -Wextra -g
 SRCDIR   := src
-SRCS     := $(wildcard $(SRCDIR)/*.cpp)
+CXXFLAGS := -std=c++17 -Wall -Wextra -g -I$(SRCDIR)/entities
+SRCS     := $(SRCDIR)/Main.cpp $(SRCDIR)/entities/Pedido.cpp
 OBJS     := $(SRCS:.cpp=.o)
 TARGET   := sistema
 
