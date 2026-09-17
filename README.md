@@ -9,7 +9,11 @@ Projeto acadêmico desenvolvido durante a graduação em Ciência da Computaçã
 
 - Cadastro e consulta de produtos em estoque
 - Registro de vendas com baixa automática de estoque
-- (ajuste esta lista conforme o que o sistema realmente faz)
+- Alteração de produtos no estoque
+- reajuste de precificação e nome de produtos
+- exclusão de produtos
+- atualização continua da lista de produtos com relação ao estoque
+- 
 
 ## Conceitos aplicados
 
@@ -29,4 +33,3 @@ make
 ./nome-do-executavel
 ```
 
-## Estrutura
